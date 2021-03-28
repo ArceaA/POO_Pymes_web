@@ -25,7 +25,7 @@ nav li, nav a{
 }
 header{
     position: fixed;
-    background-color: yellow;
+    background-color: pink;
     width: 100%;
 }
 .header-container{
@@ -35,7 +35,7 @@ header{
 }
  
 header a{
-    color: black;
+    color: brown;
     text-decoration: none;
     padding: 0 1.8rem;
 
@@ -89,6 +89,6 @@ header li{
     height: 50%;
 }
 #about-img1{
-    background: url(./images/pizza2.jpg);
+    background: url(./resources/imagen1.jpeg);
     background-position: center center;
 }
