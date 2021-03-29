@@ -25,7 +25,7 @@ nav li, nav a{
 }
 header{
     position: fixed;
-    background-color: pink;
+    background-color: #F2CED8;
     width: 100%;
 }
 .header-container{
@@ -35,7 +35,7 @@ header{
 }
  
 header a{
-    color: brown;
+    color: #732C03;
     text-decoration: none;
     padding: 0 1.8rem;
 
@@ -75,7 +75,7 @@ header li{
     height: 100%;
 }
 .presentation-content{
-    color: white;
+    color: #D9AD5B;
     text-align: center;
     padding: 280px  0 ;
     margin: auto;
