@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pitzeria</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Tartalet</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/jpg" href="/POO_Pymes_web/resources/logo.jpeg">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <h1><a href="index.html">Reposteria</a></h1>
+            <h1><a href="index.html">Tartalet</a></h1>
             <nav>
                 <ul>
                    <li><a href="#presentacion">Inicio</a></li>
-                   <li><a href="#about">Sobre nosotros</a></li> 
-                   <li><a href="#menu">Menu</a></li> 
-                   <li><a href="#reserva">Reservas</a></li> 
+                   <li><a href="#about">Conocenos</a></li> 
+                   <!-- esto lo dirige hasta menu-->
+                   <li><a href="menu.html">Menu</a></li> 
+                   <!-- esto lo dirige a inicio de sesion-->
+                   <li><a href="Singup.html">Iniciar sesion</a></li> 
     
                 </ul>
             </nav>
@@ -30,9 +35,9 @@
         </div>
         <div class="dark-overlay">
             <div class="presentation-content">
-                <h2>pizza para todos rica y deliciosa</h2>
+                <h2 >Dulces momentos</h2>
                 <p>
-                    pizza napolitana hecha en casa de andres
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, pariatur.
                 </p>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. In exercitationem perspiciatis recusandae fugit. Enim ad voluptas nemo quo facere iusto ducimus, veritatis doloremque, debitis ipsa iste. Fuga ipsa impedit officia!
@@ -48,7 +53,7 @@
         </div>
         <div class="about-container right about-content">
             <br>
-            <h2>nuestros productos</h2>
+            <h2 class="about-tittle">nuestros productos</h2>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis dolorum eum eaque repudiandae facilis natus.
             </p>
@@ -57,60 +62,70 @@
             <!--imagen-->
         </div>
         <div class="about-container left about-content">
-            <h2>nuestra historia</h2>
+            <h2 class="about-tittle" >nuestra historia</h2>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis dolorum eum eaque repudiandae facilis natus.
             </p>
         </div>
     </section>
-    <section class="menu" id="menu">
-        <h2>menu y precios</h2>
-        <li>
-            <div>Articulo</div>
-            <div>precios</div>
-        </li>
-        <li>
-            <div>Articulo</div>
-            <div>precios</div>
-        </li>
-        <li>
-            <div>Articulo</div>
-            <div>precios</div>
-        </li>
-        <li>
-            <div>Articulo</div>
-            <div>precios</div>
-        </li>
-    </section>
-    <section class="reserva" id="reserva">
-        <h2>formulario de reserva</h2>
-        <form action="#">
-            <label for="#">fecha</label>
-            <input type="date" name="" id="">
+    <!--
 
-            <label for="#">Nombre y apellido</label>
-            <input type="text" name="" id="">
-
-            <label for="#">Hora</label>
-            <input type="time" name="" id="">
-
-            <label for="#">email</label>
-            <input type="email" name="" id="">
-
-            <label for="#">cantidad de comensales</label>
-            <input type="number" name="" id="">
-
-            <label for="#">telefono</label>
-            <input type="text" name="" id="">
-
-            <label for="#">comentarios</label>
-            <textarea name="" id="" cols="120" rows="20"></textarea>
-            
-            <input type="submit" value="reservar">
-        </form>
-    </section>
+        <section class="menu" id="menu">
+            <div class="dark-overlay">
+                <div class="menu-iner">
+    
+                    <h2>menu y precios</h2>
+                    <ul>
+                        <li>
+                            <div>Articulo</div>
+                            <div>precios</div>
+                        </li>
+                        <li>
+                            <div>Articulo</div>
+                            <div>precios</div>
+                        </li>
+                        <li>
+                            <div>Articulo</div>
+                            <div>precios</div>
+                        </li>
+                        <li>
+                            <div>Articulo</div>
+                            <div>precios</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="reserva" id="reserva">
+            <h2>formulario de reserva</h2>
+            <form action="#">
+                <label for="#">fecha</label>
+                <input type="date" name="" id="">
+    
+                <label for="#">Nombre y apellido</label>
+                <input type="text" name="" id="">
+    
+                <label for="#">Hora</label>
+                <input type="time" name="" id="">
+    
+                <label for="#">email</label>
+                <input type="email" name="" id="">
+    
+                <label for="#">cantidad de comensales</label>
+                <input type="number" name="" id="">
+    
+                <label for="#">telefono</label>
+                <input type="text" name="" id="">
+    
+                <label for="#">comentarios</label>
+                <textarea name="" id="" cols="120" rows="20"></textarea>
+                
+                <input type="submit" value="reservar">
+            </form>
+        </section>
+    -->
     <footer>
-        <p>PITZERIA &copy;. todos los derechos reservados </p>
+        <p>Tartalet &copy;. Todos los derechos reservados </p>
     </footer>
 </body>
 </html>

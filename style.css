@@ -1,22 +1,9 @@
 *{
     box-sizing: border-box;
-    font-family: "Roboto",sans-serif;
+    font-family: 'Corben', cursive;
     margin: 0;
 }
-/* prueba
-nav li, nav a{
-    left: 300px;
-    text-align: center ;
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-    border: black solid 3px;
-    display: inline-block;
-    height: 50px;
-    width: 250px;
-    background-color: yellow;
-    text-decoration: none;
-}*/
+
 .left{
     float: left;
 }
@@ -25,7 +12,7 @@ nav li, nav a{
 }
 header{
     position: fixed;
-    background-color: #F2CED8;
+    background-color: #F5D3CC;
     width: 100%;
 }
 .header-container{
@@ -35,19 +22,27 @@ header{
 }
  
 header a{
-    color: #732C03;
+    display: inline-block;
+    color: #733702;
     text-decoration: none;
     padding: 0 1.8rem;
 
+}
+h1 a{
+    font-family: 'Great Vibes', cursive;
+    display: inline;
+    font-size: 2.8rem;
 }
 h1{
     display: inline;
 }
 nav{
+
     float: right;
     margin: 9px;
 }
 header li{
+    font-size: 1.3rem;
     display: inline ;
     list-style: none;
 }
@@ -75,7 +70,7 @@ header li{
     height: 100%;
 }
 .presentation-content{
-    color: #D9AD5B;
+    color: #FFAA39;
     text-align: center;
     padding: 280px  0 ;
     margin: auto;
@@ -88,7 +83,47 @@ header li{
     width: 50%;
     height: 50%;
 }
+.about-content{
+    text-align: justify;
+    padding: 130px 30px;
+}
+.about-tittle{
+    margin: 2rem;
+    text-align: center;
+}
 #about-img1{
     background: url(./resources/imagen1.jpeg);
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+#about-img2{
+    background: url(./resources/imagen2.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*------menu
+
+.menu{
+    clear: both;
+    font-size: 20px;
+    text-align: center;
+    background: url(./resources/logo.jpeg); 
+}
+.menu ul{
+    padding: 0;
+}
+.menu-iner{
+    padding: 3rem;
+    color: white;
+}
+.menu ul li{
+    list-style: none;
+    padding: 2rem;
+}
+.menu ul li div{
+    display: inline;
+    padding: 4rem;
+}
+-----*/
