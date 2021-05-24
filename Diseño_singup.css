@@ -46,11 +46,28 @@ header a{
     padding-top: 10px;
     margin: auto;
 }
-section p{
+form label{
     padding: 1.5rem;
     font-size: large;
 }
-section input{
+form input{
     padding: 0.4rem;
     font-size: large;
+}
+input[type="sumbit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20xp auto;
+    text-align: center;
+    border: 3px solid #732C02;
+    padding: 14px 10px;
+    outline: none;
+    color: #732C02;
+    transition: 0.25px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+input[type="sumbit"]:hover{
+    background: #FFAA39 ;
 }
