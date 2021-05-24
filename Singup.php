@@ -23,12 +23,15 @@
     <section class="cuadro_de_presentacion">
         <h2>Inicio de sesion</h2>
     </section>
-    <section class="cuadro_de_texto">
-        <p>Usuario</p>
-        <input type="text" name="" id="">
-        <p>Contraseña</p>
-        <input type="password" name="" id="">
-    </section>
+    <form action="validar.php" method="post">
+        <label>Usuario</label>
+        <input type="text" name="usuario" id="" placeholder="Usuario">
+        <label>Contraseña</label>
+        <input type="password" name="contraseña" id="" placeholder="Contraseña">
+        <input type="submit" name="" class="lol" onclick="" value="Entrar">
+        <span>¿Aun no te has registrado?<a href="">Registrate</a></span>
+        
+    </form>
     
 </body>
 </html>
