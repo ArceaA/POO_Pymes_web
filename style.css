@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'Corben', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 }
 /* inicio desplegable*/
@@ -106,7 +106,7 @@ header li{
     height: 100%;
 }
 .presentation-content{
-    color: #FFAA39;
+    color: #ffffff;
     text-align: center;
     padding: 280px  0 ;
     margin: auto;
@@ -134,7 +134,7 @@ header li{
     background-size: cover;
 }
 #about-img2{
-    background: url(./resources/imagen2.jpeg);
+    background: url(./resources/Paz4.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
